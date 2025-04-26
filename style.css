@@ -55,6 +55,10 @@
     margin: 30px;
     background-color: var(--Primary-Very-dark-blue-main-background);
     color: #fff;
+
+    @media (width < 320px) {
+      margin: 18px;
+    }
   }
 }
 
