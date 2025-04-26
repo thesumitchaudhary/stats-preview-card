@@ -56,9 +56,6 @@
     background-color: var(--Primary-Very-dark-blue-main-background);
     color: #fff;
 
-    @media (width < 320px) {
-      margin: 18px;
-    }
   }
 }
 
@@ -71,10 +68,6 @@
   .card {
     background-color: var(--Primary-Dark-desaturated-blue-card-background);
     border-radius: .8rem;
-
-    @media (width < 375px) {
-      width: 20rem;
-    }
   }
 
   .two-column-layout {
